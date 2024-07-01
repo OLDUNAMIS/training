@@ -1,7 +1,8 @@
+<a href="index.html"><h2>CV home</h2></a>
 <form actions="">
     <!-- details -->
     <fieldset>
-        <legend> Your Personal Details</legend>
+        <legend><span>1</span> Your Personal Details</legend>
     
         <!-- name -->
         <label>
@@ -12,4 +13,52 @@
             <input type="email" placeholder="email" required>
         </label>
     </fieldset>
+
+    <!-- destination and departure -->
+    <fieldset>
+        <legend><span>2</span> Destination & Departure</legend>
+            <label for="depature">Departure</label>
+            <input id="depature" type="date">
+            <label for="return">Return</label>
+            <input id="return" type="date">
+    <!-- select -->
+    <label for="depature">Departing From:</label>
+    <select name="depature" id="depature">
+        <option value="Nigeria">Nigeria</option>
+        <option value="London">London</option>
+        <option value="Amsterdam">Amsterdam</option>
+        <option value="Belfast">Belfast</option>
+        <option value="New York">New York</option>
+        <option value="Ghana">Ghana</option>
+    </select>
+    <label for="destination">Going To:</label>
+    <select name="destination" id="destination">
+        <option value="Nigeria">Nigeria</option>
+        <option value="London">London</option>
+        <option value="Amsterdam">Amsterdam</option>
+        <option value="Belfast">Belfast</option>
+        <option value="New York">New York</option>
+        <option value="Ghana">Ghana</option>
+    </select>
+    </fieldset>
+
+    <!-- fieldbacks -->
+    <fieldset>
+        <legend><span>3</span> Feedback</legend>
+    <!-- select -->
+    <label for="How did you hear about us">How did you hear about us?:</label>
+    <select name="destination" id="destination">
+        <option value="Newspaper">Newspaper</option>
+        <option value="TV">TV</option>
+        <option value="Google">Google</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Instagram">Instagram</option>
+        <option value="Others">Others</option>
+    </select>
+        <!-- radio -->
+        <!-- textarea -->
+        <label for="feedback">Any comments?</label><textarea name="feedback" id="feedback" cols="30" rows="10"></textarea> 
+        <!-- checkbox -->
+    </fieldset> 
+
 </form>
